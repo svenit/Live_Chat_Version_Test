@@ -9,6 +9,6 @@
 ```
 + Upgrade theme
 + Update room chat 1 vs 1
-+ Update **Chat With Stranger**
++ Update Chat With Stranger
 + Update Signup & Signin
-+ Add function use **Coins** to display information User who chatting with you
++ Add function use Coins to display information User who chatting with you
