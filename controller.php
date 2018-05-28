@@ -23,7 +23,8 @@
                 return false;
             }
             else{
-                $result = $connect->prepare("INSERT INTO comment(content) VALUES('{$message}')");
+                $timeSend = date("y:m:d H:i:s");
+                $result = $connect->prepare("INSERT INTO comment(content,time) VALUES('{$message}','{$timeSend}')");
                 $result->execute();
             }
      break;
